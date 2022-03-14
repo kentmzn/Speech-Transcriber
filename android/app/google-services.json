@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "449715880728",
+    "project_id": "speech-transcriber-2faf4",
+    "storage_bucket": "speech-transcriber-2faf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449715880728:android:b09480468861fd26b9946d",
+        "android_client_info": {
+          "package_name": "com.speechtranscriber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449715880728-a673f59dshgt3ptfgtagce2od2e96ppt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.speechtranscriber",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "449715880728-mle7tsnuqt6ktlfgfnbmp3r5nm08cqcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSkGO_3ZEWcwHMkzL5WVNeNdpjvepNvIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449715880728-mle7tsnuqt6ktlfgfnbmp3r5nm08cqcv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

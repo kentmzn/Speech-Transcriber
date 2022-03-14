@@ -1,0 +1,21 @@
+name: Build APK & Upload to Firebase App Distribution
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install npm dependencies
+        run: |
+          yarn
+      - name: Build Android Release
+        run: |
+          cd android && ./gradlew assembleRelease
+      - uses: wzieba/Firebase-Distribution-Github-Action@v1
+        with:
+          appId: ${{secrets.FIREBASE_APP_ID}}
+          token: ${{secrets.FIREBASE_TOKEN}}
+          file: android/app/build/outputs/apk/release/app-release.apk
